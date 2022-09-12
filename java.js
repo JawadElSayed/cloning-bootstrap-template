@@ -54,3 +54,12 @@ function check_phone (phone) {
     }
     return true;
 }
+
+// checking massage
+
+function check_massage (massage) {
+    if (massage < 100 ){
+        return false;
+    }
+    return true;
+}
