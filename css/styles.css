@@ -1,0 +1,169 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+img {
+    height: 100%;
+}
+
+/* general */
+
+.button {
+    padding: 1vh 2vw;
+}
+
+.section_title {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* header */
+
+.header {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.nav_bar {
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0 ;
+}
+
+.title_header {
+    font-size: 1.75em ;
+}
+
+.button_nav_bar {
+    background: none;
+    border: none;
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.face_image {
+    display: block;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body_header {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0.4em 0 ;
+}
+
+.star_divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.divider_custom_line1 {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #ffffff;
+    margin: 0 1em;
+}
+
+.fa-star {
+    font-size: 2rem;
+    margin: 0.4em 0;
+}
+
+.sub_title {
+    font-weight: normal;
+}
+
+
+/* portfolio */
+
+.portfolio {
+    padding: 6rem 0;
+    text-align: center;
+    margin: 0 4vw;
+}
+
+.portfolio_title {
+    color: #2c3e50;
+}
+
+.divider_custom_line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    margin: 0 1em;
+}
+
+.star_style {
+    color: #2c3e50;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 20em;
+    padding: 0 1em 2em 1em;
+}
+
+.box > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* about */
+
+.about {
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 8vh ;
+    text-align: center;
+}
+
+.about_title {
+    text-align: center;
+}
+
+.about_text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 2em;
+}
+
+.text_box {
+    width: 20rem;
+    padding-left: 2em;
+    font-size: 1.25rem;
+}
+
+.download_button {
+    background: none;
+    color: #ffffff;
+    border: 2px #ffffff solid ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 0.75em 1.5em;
+}
+
