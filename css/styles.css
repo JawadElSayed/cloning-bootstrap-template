@@ -1,0 +1,80 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+/* general */
+
+.button {
+    padding: 1vh 2vw;
+}
+
+/* header */
+
+.header {
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+
+.nav_bar {
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0 ;
+}
+
+.title_header {
+    font-size: 1.75em ;
+}
+
+.button_nav_bar {
+    background: none;
+    border: none;
+    font-family: 'Segoe UI', 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+.face_image {
+    display: block;
+    width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body_header {
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0.4em 0 ;
+}
+
+.star_divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider_custom_line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #ffffff;
+    margin: 0 1em;
+}
+
+.fa-star {
+    font-size: 2rem;
+    margin: 0.4em 0;
+}
+
+.sub_title {
+    font-weight: normal;
+}
+
