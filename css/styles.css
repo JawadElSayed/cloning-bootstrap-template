@@ -167,3 +167,50 @@ img {
     padding: 0.75em 1.5em;
 }
 
+/* contact me */
+
+.contact_me {
+    color: #2c3e50;
+    text-align: center;
+    padding: 6rem 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    text-align: left;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px #00000080 solid;
+    width: 25em;
+    padding: 1.5em 0;
+    font-size: 1.5rem;
+}
+
+*:focus {
+    outline: none;
+}
+
+.massage {
+    height: 5em;
+    resize: none;
+}
+
+.send_button {
+    text-align: left;
+    margin-top: 10px;
+    border: none;
+    background-color: #1abc9c;
+    color: #ffffff;
+    padding: 1em;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: lighter;
+}
