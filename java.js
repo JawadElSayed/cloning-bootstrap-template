@@ -22,5 +22,17 @@ function check_name (name) {
     return true;
 }
 
+// checking email
 
+function check_email (email) {
+    if ( !(email.include("@" , 3)) ){
+        return false;
+    }
+    let arry = email.split("@");
+    var part2 = arry[1];
+    if (part2.lenth() < 5) {
+        return false;
+    }
+    return true;
+}
 
