@@ -4,10 +4,19 @@ body {
     margin: 0;
 }
 
+img {
+    height: 100%;
+}
+
 /* general */
 
 .button {
     padding: 1vh 2vw;
+}
+
+.section_title {
+    font-size: 3rem;
+    margin: 0;
 }
 
 /* header */
@@ -59,9 +68,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
-.divider_custom_line {
+.divider_custom_line1 {
     width: 100%;
     max-width: 7rem;
     height: 0.25rem;
@@ -81,4 +91,41 @@ body {
 
 /* portfolio */
 
+.portfolio {
+    padding: 6rem 0;
+    text-align: center;
+    margin: 0 4vw;
+}
 
+.portfolio_title {
+    color: #2c3e50;
+}
+
+.divider_custom_line {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    margin: 0 1em;
+}
+
+.star_style {
+    color: 2c3e50;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    width: 20em;
+    padding: 0 1em 2em 1em;
+}
+
+.box > img {
+    width: 100%;
+    border-radius: 10px;
+}
