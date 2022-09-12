@@ -36,3 +36,21 @@ function check_email (email) {
     return true;
 }
 
+// checking phone
+
+function check_phone (phone) {
+    if (phone.startswith("+961")){
+        if (phone.startswith("0" , 4) ){
+            return false;
+        }
+        else{
+            if (phone.startswith("3" , 4) && phone.lenth() != 11 ){
+                return false;
+            }
+            else if (!(phone.startswith("3" , 4)) && phone.lenth() != 12 ){
+                return false;
+            }
+        }
+    }
+    return true;
+}
