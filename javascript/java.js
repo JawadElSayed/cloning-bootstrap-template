@@ -1,14 +1,16 @@
 
-
+const add_message = "http://localhost/test/add_massage.php";
+const get_message = "http://localhost/test/getting_message.php";
 
 const valid = (element) => {
     element.addEventListener("click" , (event) => {
+
         let name = document.getElementById("name");
         let email = document.getElementById("email");
         let phone = document.getElementById("phone");
-        let massage = document.getElementById("massage");
+        let message = document.getElementById("massage");
 
-
+        fetch(add_message, {method: 'POST', body: new URLSearchParams({"name": name.value,"email": email.value, "phone": phone.value, "message": message.value})})
     })
 
 }
@@ -63,3 +65,8 @@ function check_massage (massage) {
     }
     return true;
 }
+
+
+
+
+valid(document.getElementById("submit"));
