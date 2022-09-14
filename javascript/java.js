@@ -2,6 +2,10 @@
 const add_message = "http://localhost/test/add_massage.php";
 const get_message = "http://localhost/test/getting_message.php";
 
+const message_table = document.getElementById("message_table");
+const message_row = message_table.insertRow();
+let cell = message_row.insertCell();
+
 const valid = (element) => {
     element.addEventListener("click" , (event) => {
 
@@ -66,7 +70,24 @@ function check_massage (massage) {
     return true;
 }
 
+fetch(get_message)
+.then (x => x.json())
+.then (message => {
+    name_g = message.name;
+    email_g = message.email;
+    phone_g = message.phone;
+    message_g = message.message;
 
+    const message_table = document.getElementById("message_table");
+    const message_row = message_table.insertRow();
+    let cell = message_row.insertCell();
+    cell.innerHTML = name_g
+    cell.innerHTML = email_g
+    cell.innerHTML = phone_g
+    cell.innerHTML = message_g
+
+    // document.getElementById("gender").innerHTML = "Gender: " + gender_type;
+});
 
 
 valid(document.getElementById("submit"));
