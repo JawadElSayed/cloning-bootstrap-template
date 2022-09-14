@@ -19,6 +19,10 @@ img {
     margin: 0;
 }
 
+.message_page{
+    background-color: #1abc9c;
+}
+
 /* header */
 
 .header {
@@ -32,6 +36,10 @@ img {
     align-items: center;
     justify-content: space-around;
     padding: 1rem 0 ;
+}
+.header_message_page {
+    padding-left: 10vw;
+    justify-content: flex-start;
 }
 
 .title_header {
